@@ -1,0 +1,273 @@
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    border: 2rem  rgb(35, 111, 224) ;
+    transition: all .2s linear;
+    box-sizing: border-box;
+    text-decoration:none;
+    outline: none;
+    border: none;
+    }
+    html{
+    font-size: 65%;
+    }
+    html ::-webkit-scrollbar{
+    width: 1rem;
+    height: .5rem;
+    }
+    html ::-webkit-scrollbar-track{
+    background-color:white;
+    }
+    html ::-webkit-scrollbar-thumb{
+    background-color:rgb(133, 145, 155);
+    height: .5px;
+    }
+    body{
+    background-color:lightpink;
+    padding-left: 40rem;
+    color: rgb(245, 245, 245);
+    border: .2rem solid rgba(247, 106, 148, 0.937);
+    border-style:hidden;
+    }
+    .user span{
+       color:whitesmoke;
+    }
+    .heading{
+    font-size: 3rem;
+    border-bottom: .2rem solid rgb(94, 92, 92);
+    text-align: center;
+    margin-bottom: .5rem;
+    padding-right: 1rem;
+    }
+    .heading span{
+    padding-left: 1rem;
+    color:lightblue;
+    }
+    header{
+    position: fixed;
+    top: 0;left:0;
+    background-color:lightblue;
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    border-right: .2rem double pink;
+    }
+    header .user h1{
+    color: whitesmoke;
+    font-size: 3rem;
+    margin-bottom: .002rem;
+    }
+    header .user p{
+    color: rgb(236, 231, 231);
+    font-size: 2rem;
+    margin-bottom: .02rem;
+    }
+    header .navbar{
+    width: 85%;
+    margin-top: -1.5rem;
+    text-align: center;
+    padding-left: 5rem;
+    }
+    header .navbar ul{
+    list-style: circle;
+    padding: 1rem 1rem;
+    }
+    header .navbar ul li a{
+    display: block;
+    padding: 1rem ;
+    margin: 1rem 0;
+    color: whitesmoke;
+    background-color: rgb(94, 92, 92);
+    border-radius: 5rem;
+    font-size: 2rem;
+    text-align: center;
+    }
+    header .navbar ul li a:hover{
+    background-color:pink;
+    }
+    .home{
+    display: flex;
+    flex-flow: column;
+    padding: 5rem;
+    justify-content: center;
+    margin-top: 5rem;
+    }
+    .home h1{
+    color:aqua;
+    }
+    .home h1 span:after{
+    content:'DEVELOPER';
+    animation: animate 4s infinite;
+    }
+    @keyframes animate{
+    0%{content:'DEVELOPER';}
+    25%{content: 'WEB DEVELOPER'}    
+    }
+    .home h1{
+    margin-top: .5rem;
+    font-size: 3rem;
+    }
+    .home h1 span{
+    color:aqua ;
+    }
+    home p{
+        margin-top: .05rem;
+        font-size: 1.5rem;
+    }
+    .b{
+        margin-top: 1rem;
+        display: block;
+        padding: 2rem 2.5rem;
+        color: whitesmoke;
+        background-color: rgb(94, 92, 92);
+        border-radius: 3rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+    .b:hover{
+        background-color:rgb(43, 173, 173);
+    }
+    .c{
+        margin-top:1rem;
+        display:block;
+        background-color: grey;
+        padding:2rem 5rem;
+        color:whitesmoke;
+        border-radius: 3rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        order:initial;
+    }
+    .c:hover{
+        background-color: azure;
+    }
+    .about .row .info{
+        margin-top: 1rem;
+        font-size: 1.75rem;
+    }
+    .abot.ro span{
+        color:grey;
+    }
+    .about .row .info span{
+        color:gray;
+    }
+    .about .row .counter{
+        display: flex;
+        flex:1 1 48rem;
+        text-align: center;
+        justify-content: right;
+    }
+    .about .row .counter .box{
+        width: 25rem;
+        height: 15rem;
+        background-color: rgb(78, 77, 77);
+        text-align: right;
+        font-size: 1.8rem;
+        margin: 2rem;
+        padding: 2rem;
+        padding-bottom: .5rem;
+        border-radius: 1rem;
+        margin-bottom: 7rem;
+    }
+    .about .row .counter .box span{
+        font-size: 5rem;
+        color:aqua ;
+    }
+    .about .row .counter .box i{
+        color: yellow;
+        padding-top: -.5rem;
+        font-size: 4rem;
+    }
+    .skills .row{
+        padding-top: 1rem;
+    }
+    .skills .row .content{
+        font-size: 2rem;
+    }
+    .skills .row .box{
+        display: flex;
+        flex-direction: row;
+        padding-top: 2rem;
+        padding-left: 2.5rem;
+    }
+    .skills .row .box h3{
+        padding-left: 2.5rem;
+    }
+    .experience .column{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: .5rem;
+        padding-top: 3rem;
+    }
+    .experience .info h3{
+        color: rgba(247, 247, 247, 0.923);
+        font-size: 2rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+    .experience .info h3 span{
+        color: rgb(236, 238, 236) ;
+    }
+    .contact .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .contact .row .content{
+        flex:  1 1 30rem;
+        padding: 4rem;
+        padding-bottom: 0;
+    }
+    .contact .row .content .title{
+        margin-top: -15rem;
+        font-size: 2.5rem;
+        padding-bottom: 2rem;
+    }
+    .contact .row .content .info h3{
+        font-size: 1.5rem;
+    }
+    contact .row .content .info h3 i{
+        padding-right: 1.5rem;
+        color:  rgba(240, 231, 228, 0.952) ;
+    }
+    .contact .row form{
+        padding: 2rem;
+        flex: 1 1 45rem;
+        margin: 2rem;
+        margin-bottom: 3rem;
+        color: whitesmoke;
+    }
+    .contact .row form .box{
+        padding: 1rem 2.5rem;
+        margin: 1rem 0;
+        width: 80%;
+        border-radius: 1.2rem;
+        background-color:  rgb(78, 77, 77);
+        color: whitesmoke;
+        font-size: 1.5rem;
+    }
+    .contact .row form .boxmessage i{
+        color: whitesmoke;
+    }
+    .contact .row form .b{
+        margin-top: 2.5rem;
+    }
+    .contact .row form .box::placeholder{
+        color:whitesmoke;
+    }
+    .contact .credit{
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+    .contact .credit h3{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .contact .credit i{
+        text-align: center;
+        padding: 2rem;
+        border-radius: 4rem;
+        font-size: 1.75rem;
+        background-color:rgb(30, 159, 159);
+    }
